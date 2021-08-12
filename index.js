@@ -7,7 +7,7 @@ import {Provider} from 'react-redux';
 import App from './src/App';
 import {name as appName} from './app.json';
 import store from './src/redux/store';
-
+// some changes
 const root = () => {
   return (
     <Provider store={store}>
